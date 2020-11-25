@@ -13,12 +13,12 @@ User Experience (UX)
          -  As a First Time Visitor, I want to easily understand the main purpose of the site.
          -  As a First Time Visitor, I want to be able to easily navigate throughout the site.
          -  As a First Time Visitor, I want to be able to easily purchase an item.
-    
+
         Returning Visitor Goals:
 
         -  As a Returning Visitor, I want to find items I had previously added to my cart to still be there.
         -  As a Returning Visitor, I want to find my cart items ready for purchase.
-    
+
         Frequent User Goals:
 
         -  As a Frequent User, I want to check to see if there are any newly items added to the store.
@@ -26,9 +26,9 @@ User Experience (UX)
     Design
 
         Colour Scheme:
-        
+
         -  Two main colours were used on the homepage which were a light Grey as a background and a subtle aqua Blue for the navigation bar, along with a clean White background for each individual item.
-    
+
         Typography:
 
         -  The Sans Serif font is the main font used throughout the whole website.
@@ -39,9 +39,11 @@ User Experience (UX)
 
     Wireframes
 
-        Home Page   - https://github.com/MrChrisRandall/Django-milestone-Ecommerce/blob/Backup/ecommerce/static/images/Ecomm-Main-page.png
+        Desktop View    - https://github.com/MrChrisRandall/django-ecomm-milestone/blob/master/static/images/Ecomm-desktop-view.png
 
-        Mobile View - https://github.com/MrChrisRandall/Django-milestone-Ecommerce/blob/Backup/ecommerce/static/images/Ecomm-Mobile-view.png
+        Mobile View     - https://github.com/MrChrisRandall/django-ecomm-milestone/blob/master/static/images/Ecomm-mobile-view.png
+
+        Mobile View 2   - https://github.com/MrChrisRandall/django-ecomm-milestone/blob/master/static/images/Ecomm-mobile-view-2.png
 
 FEATURES
 
@@ -51,30 +53,42 @@ FEATURES
 
 Frameworks, Libraries & Programs Used
 
+    Atom:
+
+      For this project I decided to use Atom Text Editor to write my code.
+
+    Django 3.1.3:
+
+        Django was used as the base template for the website.
+
     Bootstrap 4.4.1:
-        
+
         Bootstrap was used to assist with the responsiveness and styling of the website.
-    
+
     Font Awesome:
-        
+
         Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-    
+
     Git:
-    
-        Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-    
+
+        Git was used for version control and also to Commit and Push to GitHub.
+
     GitHub:
-        
+
         GitHub is used to store the projects code after being pushed from Git.
+
+    Heroku:
+
+        Heroku was used to host the application
 
 Testing
 
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
     Testing User Stories from User Experience (UX) Section:
-        
+
         First Time Visitor Goals:
-            
+
             As a First Time Visitor, I want to easily understand the main purpose of the site.
 
                 Upon entering the site, users are automatically greeted with a clean minimal homepage. Each picture showcasing the product on display along with clean "Add to cart" and "View" buttons.
@@ -86,13 +100,13 @@ Testing
             As a First Time Visitor, I want to be able to easily purchase an item.
 
                 This is made easy by the "Add to cart" button which stands out on all products on display.
-            
+
         Returning Visitor Goals:
 
             As a Returning Visitor, I want to find items I had previously added to my cart to still be there.
 
                 Thanks to Cookies stored by the website a user can add items to their cart and then return at a later date to find the items still there ready for purchase.
-            
+
             As a Returning Visitor, I want to find my cart items ready for purchase.
 
                 This is as simple as clicking into the cart where the items have been saved, clicking the checkout button, filling out the form and clicking on the payment options.
@@ -104,7 +118,7 @@ Testing
                 This is easily done by visiting the site and simply looking through the main page.
 
     Further Testing:
-    
+
         The Website was tested on Google Chrome and Microsoft Edge.
         The website was viewed on a variety of devices such as Desktop, Laptop nad Mobile.
         A large amount of testing was done to ensure that all teh features were working correctly.
